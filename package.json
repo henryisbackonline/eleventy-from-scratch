@@ -1,4 +1,12 @@
 {
+	"scripts": {
+		"build": "pnpm exec eleventy",
+		"make": "pnpm exec eleventy",
+		"b": "pnpm exec eleventy",
+		"start": "pnpm exec eleventy --serve --quiet",
+		"serve": "pnpm exec eleventy --serve --quiet"
+	},
+
 	"dependencies": {
 		"@11ty/eleventy": "^3.1.2"
 	}
