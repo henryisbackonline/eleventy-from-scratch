@@ -3,7 +3,6 @@
 npm-debug.*
 *.scssc
 *.swp
-.DS_Store
 .sass-cache
 .env
 .cache
@@ -11,3 +10,7 @@ npm-debug.*
 # Node modules and output
 node_modules
 dist
+
+# Ignore Mac DS_Store files
+.DS_Store
+**/.DS_Store
