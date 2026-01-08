@@ -1,7 +1,8 @@
 {
-	"scripts": {
-		"start": "eleventy --serve",
-		"build": "eleventy"
+    "scripts": {
+		"build": "pnpm exec eleventy",
+		"start": "pnpm exec eleventy --serve --quiet",
+		"serve": "pnpm exec eleventy --serve --quiet"
 	},
 	"type": "module",
 	"dependencies": {
